@@ -11,8 +11,6 @@ function App() {
         <Logo />
         <Nav />
         <CartLink />
-
-        <a href="#">Cart</a>
       </nav>
       <main>Accessories Shop by Adelia Dumukenova</main>
     </div>
