@@ -3,7 +3,8 @@ import Logo from "../../components/Logo/Logo";
 import Nav from "../../components/Nav/Nav";
 import CartLink from "../../components/CartLink/CartLink";
 
-function Layout(props) {
+
+export default () => {
     return (
         <div className="Layout">
             <nav>
@@ -14,9 +15,4 @@ function Layout(props) {
             <main>[props.children]</main>
         </div>
     );
-
-}
-
-
-
-export default Layout;
+};
